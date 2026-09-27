@@ -1,37 +1,35 @@
 # Tkinter Widget Demos
 
-A collection of small, standalone scripts, each demonstrating one Tkinter widget or feature. Every file is independently runnable.
+A collection of small, standalone scripts, each demonstrating one Tkinter widget or feature. Every file can be run on its own.
 
-| File | Demonstrates |
-|---|---|
-| `buttons.py` | Buttons (with an image, via Pillow) |
-| `checkbutton.py` | Checkbuttons |
-| `colorchooser.py` | The color chooser dialog |
-| `entry.py` | Text entry fields |
-| `filedialog_demo.py` | The open-file dialog |
-| `frames.py` | Frames |
-| `grid_geometry.py` | The grid geometry manager |
-| `labels.py` | Labels (with an image, via Pillow) |
-| `listbox.py` | Listboxes |
-| `menubar.py` | Menu bars |
-| `messagebox.py` | Message boxes |
-| `new_window.py` | Opening additional windows |
-| `progress_bar.py` | Progress bars |
-| `radiobutton.py` | Radio buttons |
-| `savefile.py` | The save-file dialog |
-| `scale.py` | Sliders (`Scale`) |
-| `scrollbar.py` | Scrollbars |
-| `text.py` | Multi-line text widgets |
-| `window_tabs.py` | Tabbed windows (`ttk.Notebook`) |
+- `buttons.py`: buttons, including one with an image, using Pillow.
+- `checkbutton.py`: checkbuttons.
+- `colorchooser.py`: the color chooser dialog.
+- `entry.py`: text entry fields.
+- `filedialog_demo.py`: the open file dialog.
+- `frames.py`: frames.
+- `grid_geometry.py`: the grid geometry manager.
+- `labels.py`: labels, including one with an image, using Pillow.
+- `listbox.py`: listboxes.
+- `menubar.py`: menu bars.
+- `messagebox.py`: message boxes.
+- `new_window.py`: opening additional windows.
+- `progress_bar.py`: progress bars.
+- `radiobutton.py`: radio buttons.
+- `savefile.py`: the save file dialog.
+- `scale.py`: sliders (`Scale`).
+- `scrollbar.py`: scrollbars.
+- `text.py`: multi line text widgets.
+- `window_tabs.py`: tabbed windows (`ttk.Notebook`).
 
 ## Requirements
 ```
 pip install pillow
 ```
-(Tkinter itself ships with Python. `buttons.py` and `labels.py` need `download.png` / `sunset.jpg` respectively, both included in this folder.)
+Tkinter itself ships with Python. `buttons.py` needs `download.png` and `labels.py` needs `sunset.jpg`, both already included in this folder.
 
 ## Running it
-Run any file directly, e.g.:
+Run any file directly, for example:
 ```
 python buttons.py
 ```
